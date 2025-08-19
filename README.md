@@ -34,13 +34,7 @@ O GitHub renderiza os CSVs como **tabelas bonitas**, facilitando a visualizaçã
 
 **1️⃣ Top 3 filmes mais assistidos**
 
-```sql
-SELECT filmes.titulo, COUNT(assistidos.id_assistido) AS total_assistido
-FROM filmes
-JOIN assistidos ON filmes.id_filme = assistidos.id_filme
-GROUP BY filmes.id_filme
-ORDER BY total_assistido DESC
-LIMIT 3;
+**Query:** `SELECT filmes.titulo, COUNT(assistidos.id_assistido) AS total_assistido FROM filmes JOIN assistidos ON filmes.id_filme = assistidos.id_filme GROUP BY filmes.id_filme ORDER BY total_assistido DESC LIMIT 3;`
 
 ![Resultado Top 3 Filmes](imagens/Top 3.png)
 
