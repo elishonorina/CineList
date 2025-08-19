@@ -41,3 +41,22 @@ JOIN assistidos ON filmes.id_filme = assistidos.id_filme
 GROUP BY filmes.id_filme
 ORDER BY total_assistido DESC
 LIMIT 3;
+
+![Resultado Top 3 Filmes](imagens/Top 3.png)
+
+## 📝 Aprendizados
+
+- **Criação e relacionamento de tabelas (`JOIN`)**  
+  Aprendi a conectar tabelas diferentes usando chaves primárias e estrangeiras para organizar os dados de forma relacional.
+
+- **Agregações e ordenação (`COUNT`, `AVG`, `ORDER BY`)**  
+  Pratiquei como calcular contagens, médias e ordenar resultados para gerar relatórios significativos.
+
+- **Filtragem de dados (`WHERE`)**  
+  Usei filtros para extrair informações específicas, como filmes assistidos por um usuário.
+
+- **Exportação de resultados para CSV**  
+  Aprendi a gerar arquivos CSV a partir das consultas e como o GitHub renderiza os resultados.
+
+
+
