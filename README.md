@@ -42,7 +42,7 @@ JOIN assistidos ON filmes.id_filme = assistidos.id_filme
 GROUP BY filmes.id_filme ORDER BY total_assistido 
 DESC LIMIT 3;`
 
-![Resultado Top 3 Filmes](imagens/Top3.png)
+![Resultado Top 3 Filmes](imagens/FotoTop3.png)
 
 ## 📝 Aprendizados
 
